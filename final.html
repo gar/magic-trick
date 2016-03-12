@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Magic Trick!</title>
+    <script src="jquery.js"></script>
+  </head>
+  <body>
+    <h1>Behold! My magic powers!</h1>
+    <img id="wand" src="magic-wand.png">
+    <img id="hat" src="hat-rabbit.png">
+  </body>
+  <script>
+    $("#wand").on("click", function() {
+      $("#hat").toggle();
+    });
+  </script>
+</html>
